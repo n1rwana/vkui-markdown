@@ -1,0 +1,364 @@
+
+.Markdown--hidden {
+  visibility: hidden
+}
+
+.Markdown > h1:first-child,
+.Markdown > h2:first-child,
+.Markdown > h3:first-child,
+.Markdown > h4:first-child,
+.Markdown > h5:first-child,
+.Markdown > h6:first-child {
+  margin-top: 0;
+}
+
+.Markdown h1 {
+  font-style: normal;
+  font-weight: 600;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 18px;
+  line-height: 20px;
+  color: var(--vkui--color_text_primary);
+  margin-top: 25px;
+  margin-bottom: 7px;
+  margin-left: 0
+}
+
+.Markdown h2 {
+  font-weight: 600;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 17px;
+  line-height: 20px;
+  color: var(--vkui--color_text_primary);
+  margin-top: 20px;
+  margin-bottom: 7px;
+  margin-left: 0
+}
+
+.Markdown h3 {
+  font-style: normal;
+  font-weight: 600;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--vkui--color_text_primary);
+  margin-bottom: 7px;
+  margin-top: 12px;
+  margin-left: 0
+}
+
+.Markdown h4 {
+  border: 0;
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 15px;
+  line-height: 20px;
+  color: var(--vkui--color_text_primary);
+  margin-top: 11px;
+  margin-bottom: 9px
+}
+
+.Markdown h5 {
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 14px;
+  line-height: 18px;
+  color: var(--vkui--color_text_primary);
+  margin-top: 11px;
+  margin-bottom: 9px
+}
+
+.Markdown h6 {
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--vkui--color_text_primary);
+  margin-top: 11px;
+  margin-bottom: 9px
+}
+
+.Markdown em {
+  font-style: italic;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--vkui--color_text_primary)
+}
+
+.Markdown strong {
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--vkui--color_text_primary)
+}
+
+.Markdown del {
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: #99a2ad
+}
+
+.Markdown blockquote {
+  border-left: 2px solid #333333;
+  margin-left: 0;
+  padding: 6px 16px;
+  font-style: italic;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--vkui--color_text_primary);
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.Markdown p {
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 1.462;
+  color: var(--vkui--color_text_primary);
+  margin: 0 0 6px;
+  padding: 0
+}
+
+.Markdown p:last-child {
+  margin: 0
+}
+
+.Markdown a {
+  font-style: normal;
+  font-weight: 500;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--vkui--color_text_link)
+}
+
+.Markdown code {
+  background: #edeef0;
+  border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 20px;
+  color: var(--vkui--color_text_primary);
+  padding: 2px
+}
+
+.Markdown pre {
+  background: #edeef0;
+  border-radius: 8px;
+  padding: 16px;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--vkui--color_text_primary);
+  word-wrap: normal;
+  overflow: auto
+}
+
+.Markdown pre code {
+  padding: 0
+}
+
+.Markdown pre::-webkit-scrollbar {
+  width: 8px;
+  height: 8px
+}
+
+.Markdown pre::-webkit-scrollbar-thumb {
+  background-color: #c5d0db;
+  border-radius: 4px
+}
+
+.Markdown pre::-webkit-scrollbar:hover {
+  background-color: var(--content_tint_background)
+}
+
+.Markdown .MarkdownImageBlock {
+  display: block;
+  text-align: center;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  color: #818c99;
+  line-height: 12px;
+  margin: 4px
+}
+
+.Markdown .MarkdownImagePlaceholder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #edeef0;
+  padding: 50px
+}
+
+.Markdown img {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 8px;
+  min-height: 50px;
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  position: relative
+}
+
+.Markdown .MarkdownImageBlockHint {
+  margin-top: 4px
+}
+
+.Markdown ul,.Markdown ol {
+  padding: 0;
+  margin: 4px 0 0 4px;
+  list-style-position: inside
+}
+
+.Markdown li ul,.Markdown li ol {
+  margin-top: 8px;
+  margin-left: 15px
+}
+
+.Markdown li {
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px;
+  line-height: 17px;
+  color: var(--vkui--color_text_primary);
+  margin-bottom: 6px
+}
+
+.MarkdownTableResponsive::-webkit-scrollbar {
+  width: 8px;
+  height: 8px
+}
+
+.MarkdownTableResponsive::-webkit-scrollbar-thumb {
+  background-color: #c5d0db;
+  border-radius: 4px
+}
+
+.MarkdownTableResponsive::-webkit-scrollbar:hover {
+  background-color: var(--content_tint_background)
+}
+
+.Markdown .MarkdownTableResponsive {
+  border: 1px solid #e7e8ec;
+  border-radius: 4px;
+  z-index: 99;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  margin-top: 6px
+}
+
+.Markdown table {
+  border-collapse: collapse;
+  width: 100%;
+  min-width: 100%;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-size: 13px
+}
+
+.Markdown table th {
+  border: 1px solid #e7e8ec;
+  padding: 12px 10px;
+  background: #fafbfc;
+  line-height: 16px;
+  font-weight: 400;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  color: #626d7a
+}
+
+.Markdown table td {
+  border: 1px solid #e7e8ec;
+  padding: 10px;
+  line-height: 20px;
+  color: var(--vkui--color_text_primary)
+}
+
+.Markdown table thead tr:first-child th {
+  border-top: 0;
+  border-bottom: 0
+}
+
+.Markdown table tbody tr:last-child td {
+  border-bottom: 0
+}
+
+.Markdown table tbody tr td:first-child {
+  border-left: 0
+}
+
+.Markdown table tbody tr td:last-child {
+  border-right: 0
+}
+
+.Markdown table thead tr:first-child th:first-child {
+  border-top: 0;
+  border-left: 0;
+  border-radius: 4px 0 0 0
+}
+
+.Markdown table thead tr:first-child th:last-child {
+  border-top: 0;
+  border-right: 0;
+  border-radius: 0 4px 0 0
+}
+
+.Markdown table tbody tr:last-child td:first-child {
+  border-bottom: 0;
+  border-left: 0;
+  border-radius: 0 0 0 4px
+}
+.Markdown table tbody tr:last-child td:last-child {
+  border-bottom: 0;
+  border-right: 0;
+  border-radius: 0 0 4px 0
+}
